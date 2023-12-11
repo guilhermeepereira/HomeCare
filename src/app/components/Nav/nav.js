@@ -1,3 +1,5 @@
+"use client";
+
 import { BiSubdirectoryRight } from "react-icons/bi";
 import Image from "next/image";
 import HomeCareIcon from "public/assets/logo2.png";
@@ -14,22 +16,37 @@ const Nav = () => {
       <div className="p-8" id="header-list">
         <ul className="px-7 flex gap-12">
           <li>
-            <a href="#inicio">Início</a>
-          </li>
-          <li>
-            <a href="#" className="flex items-center">
-              Entrar
-              <BiSubdirectoryRight className="text-2xl" />
+            <a
+              href="#home"
+              className="flex items-center hover:text-[#feb949] duration-300"
+              id="link-menu"
+            >
+              Home
             </a>
           </li>
           <li>
-            <a href="#sobre">Sobre</a>
+            <a
+              href="#enter"
+              className="flex items-center hover:text-[#feb949] duration-300"
+            >
+              Entrar
+              <BiSubdirectoryRight className="text-xl" />
+            </a>
           </li>
           <li>
-            <a href="#funciona">Como funciona</a>
+            <a href="#about" className="hover:text-[#feb949] duration-300">
+              Sobre
+            </a>
           </li>
           <li>
-            <a href="#ajuda">Ajuda</a>
+            <a href="#how-work" className="hover:text-[#feb949] duration-300">
+              Como funciona
+            </a>
+          </li>
+          <li>
+            <a href="#faq" className="hover:text-[#feb949] duration-300">
+              Ajuda
+            </a>
           </li>
         </ul>
       </div>
