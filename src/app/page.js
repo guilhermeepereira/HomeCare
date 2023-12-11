@@ -1,5 +1,4 @@
 import Nav from "./components/Nav/nav";
-import HomeOne from "./components/Main/HomeOne/HomeOne";
 
 export default function Home() {
   return (
